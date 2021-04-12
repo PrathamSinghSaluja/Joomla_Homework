@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reactangle Drag & Drop</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500">
+    </canvas>
+    <h2 style="display: flex; margin: 0 auto;justify-content: center;">Instructions</h4>
+    <p>1: Draw Rectangle Here</p>
+    <p>
+       2: First Click Submit It will store the Data
+        Then Click Refresh
+    </p>
+    <p>
+        3: After Refresh Click in the given area and drag a little
+    </p>
+   
+    <div class="buttons_design">
+        <button type="submit" id="post_data" onclick="postData()" >Submit</button>
+        <button type="button" id="post_data" onclick="window.location.reload()">Refresh</button>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+</html>
